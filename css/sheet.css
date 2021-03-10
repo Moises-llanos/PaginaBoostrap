@@ -16,6 +16,12 @@
 #hero{
     background: #293852;
 }
+
+.card-img-top{
+    background: #292852;
+}
+
+
  #hero .carousel-inner img{
     object-fit: cover;
     max-height: 50vh;
@@ -33,7 +39,7 @@
 }
 
 .form{
-    background: #293850;
+    background: #292852;
     color: white;
 }
 
@@ -41,6 +47,3 @@
     text-decoration: none;
 }
 
-.card-img-top{
-    background: #292852;
-}
