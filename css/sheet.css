@@ -1,0 +1,41 @@
+.header{
+    background: #293852 !important; 
+    position: sticky;
+    z-index: 500;
+    top: 0;
+}
+
+.header ul{
+    margin-left: auto !important;
+}
+
+.header a{
+    color: white !important;
+}
+
+.hero{
+    background: #293852;
+}
+
+.footer{
+    display: flex;
+    height: 150px;
+    background: #292852;
+    align-items: center;
+}
+.title{
+    color: white;
+}
+
+.form{
+    background: #293850;
+    color: white;
+}
+
+.footer a{
+    text-decoration: none;
+}
+
+.card-img-top{
+    background: #292852;
+}
