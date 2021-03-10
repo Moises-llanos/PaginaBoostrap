@@ -13,9 +13,14 @@
     color: white !important;
 }
 
-.hero{
+#hero{
     background: #293852;
 }
+ #hero .carousel-inner img{
+    object-fit: cover;
+    max-height: 50vh;
+}
+
 
 .footer{
     display: flex;
