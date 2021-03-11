@@ -6,6 +6,7 @@
 }
 .btn-button{
     color: white !important;
+    border-color: white !important;
 }
 .btn-button:hover{
     background: white;
@@ -30,11 +31,11 @@
    filter: grayscale(70%);
 }
 
-.hero{
+#carousel{
     position: relative;
 }
 
-.overlay{
+#carousel .overlay {
     position:absolute;
     top: 0;
     right: 0;
