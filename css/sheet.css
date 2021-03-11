@@ -8,6 +8,23 @@
     color: white !important;
     border-color: white !important;
 }
+.btn3{
+    display: block;
+    width: 50%;
+    padding: 5px 10px;
+    margin: 5px auto;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+    background: #19b76e;
+    color: white;
+    border: none;
+    
+}
+
+.btn3:hover{
+    background: #20905c;
+}
 .btn-button:hover{
     background: white;
     color: black !important;
