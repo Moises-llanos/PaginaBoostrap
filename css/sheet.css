@@ -4,6 +4,13 @@
     z-index: 500;
     top: 0;
 }
+.btn-button{
+    color: white !important;
+}
+.btn-button:hover{
+    background: white;
+    color: black !important;
+}
 
 .header ul{
     margin-left: auto !important;
@@ -17,33 +24,75 @@
     background: #293852;
 }
 
+#hero .carousel-inner img{
+   object-fit: cover;
+   max-height: 50vh;
+   filter: grayscale(70%);
+}
+
+.hero{
+    position: relative;
+}
+
+.overlay{
+    position:absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, .5);
+    color: white;
+}
+
+#hero .carousel-inner .container,
+#hero .carousel-inner .row{
+    height: 100%;
+}
+
+
+
+
+
 .card-img-top{
     background: #292852;
 }
 
-
- #hero .carousel-inner img{
-    object-fit: cover;
-    max-height: 50vh;
-}
-
-
-.footer{
-    display: flex;
-    height: 150px;
-    background: #292852;
-    align-items: center;
-}
-.title{
+.details{
+    background: #293852;
     color: white;
+    padding: 50px;
 }
+
+.details img{
+    width: 100%;
+}
+
+
+
+
 
 .form{
     background: #292852;
     color: white;
 }
 
+
+.footer{
+    display: flex;
+    height: auto;
+    background: #200852;
+    align-items: center;
+    padding-bottom: 30px;
+}
+.title{
+    color: white;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
 .footer a{
     text-decoration: none;
+    color: white;
+    
 }
 
